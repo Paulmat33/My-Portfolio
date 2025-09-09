@@ -13,4 +13,10 @@
   .nav_link:hover::after {
     @apply scale-x-100;
   }
+  .text-bg{
+    background-image: linear-gradient(to right, #875087 0%, #ffffff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
