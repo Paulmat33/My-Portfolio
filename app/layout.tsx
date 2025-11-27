@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Sora } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
+import Footer from "@/components/Home/Footer/Footer";
+import ScrollToTop from "@/components/Helper/ScrollToTop";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,12 +32,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="custom-scrollbar">
       <body
         className={`${sora.variable} antialiased`}
       >
         <ResponsiveNav/>
         {children}
+        <Footer/>
+        <ScrollToTop/>
       </body>
     </html>
   );
