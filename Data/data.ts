@@ -1,9 +1,9 @@
 export const BaseInfo = {
-  name: "Sajal",
-  position: "Full Stack Web Developer",
+  name: "Paul",
+  position: "Frontend Web Developer",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
-  profilePic: "/images/hero.png",
+    "I’m a Frontend Developer & Engineer passionate about creating modern, responsive, and user-friendly web applications. I help businesses and startups turn ideas into intuitive digital experiences that drive engagement and growth. My core skills include JavaScript (ES6+), React.js, Next, TypeScript, Tailwind CSS, and Firebase, with hands-on experience in building scalable web solutions, UI/UX-focused interfaces, and performance-driven applications",
+  profilePic: "/images/mat_pics.jpg",
 };
 
 export const aboutInfo = {
@@ -147,34 +147,34 @@ export const skillsData = [
   },
   {
     id: 6,
-    title: "Node JS",
-    image: "/images/node.svg",
-    percent: "77%",
-  },
-  {
-    id: 7,
-    title: "MongoDB",
-    image: "/images/mongo.svg",
-    percent: "65%",
-  },
-  {
-    id: 8,
-    title: "Python",
-    image: "/images/python.svg",
-    percent: "55%",
-  },
-  {
-    id: 9,
     title: "Firebase",
     image: "/images/firebase.svg",
     percent: "75%",
   },
-  {
-    id: 10,
-    title: "Vue",
-    image: "/images/vue.svg",
-    percent: "35%",
-  },
+  // {
+  //   id: 7,
+  //   title: "Node JS",
+  //   image: "/images/node.svg",
+  //   percent: "77%",
+  // },
+  // {
+  //   id: 8,
+  //   title: "MongoDB",
+  //   image: "/images/mongo.svg",
+  //   percent: "65%",
+  // },
+  // {
+  //   id: 9,
+  //   title: "Python",
+  //   image: "/images/python.svg",
+  //   percent: "55%",
+  // },
+  // {
+  //   id: 10,
+  //   title: "Vue",
+  //   image: "/images/vue.svg",
+  //   percent: "35%",
+  // },
 ];
 
 export const clientReviews = [
@@ -240,7 +240,7 @@ export const blogs = [
 ];
 
 export const contactData = {
-  phone: "+88(012345 789)",
-  email: "example@gmail.com",
-  address: "Dhaka , Bangladesh",
+  phone: "+234(7065887301)",
+  email: "matimilojupaul@gmail.com",
+  address: "Lagos , Nigeria",
 };
