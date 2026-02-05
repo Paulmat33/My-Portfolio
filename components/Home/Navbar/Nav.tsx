@@ -2,7 +2,7 @@
 import { navLinks } from '@/constant/constant'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useEffect, useState } from 'react'
+import React, {  useEffect, useState } from 'react'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 
 
@@ -29,7 +29,7 @@ const Nav = ({ openNav }: Props) => {
     }
   }, [])
   return (
-    <div className={`fixed h-[15vh] z-[10px]
+    <div className={`fixed h-[15vh] z-[10]
      w-full ${navbg ? 'bg-[#240b39]' : 'fixed'} transition-all duration-200`}>
       <div className="flex items-center justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto">
         <Image
